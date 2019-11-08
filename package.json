@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "front-end developer portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/todorovicj86/my-portfolio.git"
+  },
+  "keywords": [
+    "front-end",
+    "web",
+    "html",
+    "css",
+    "javascript",
+    "jquery",
+    "react",
+    "bootstrap",
+    "wordpress",
+    "jss"
+  ],
+  "author": "Jelena Todorovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/todorovicj86/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/todorovicj86/my-portfolio#readme"
+}
