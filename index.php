@@ -83,7 +83,7 @@
 
                         
                         <p>
-                            What you should know about me is that I love creating and I love learning (I consider myself a forever-student). I also love solving problems and making things work. 
+                            What you should know about me is that I love creating and I love learning (I am a lifelong learner). I also love solving problems and making things work. 
                             That is why I love web development. When I started learning it, when I tried <span class = "tooltip">this<span class="tooltip-text">HTML</span></span> and <span class = "tooltip"> that<span class="tooltip-text">CSS</span></span>, 
                             and read more, tried <span class = "tooltip">more<span class="tooltip-text">JavaScript and jQuery</span></span>, I completely fell in love with it!
                         </p>
