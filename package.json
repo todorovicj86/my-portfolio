@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/todorovicj86/my-portfolio/issues"
   },
-  "homepage": "https://github.com/todorovicj86/my-portfolio#readme"
+  "homepage": "https://github.com/todorovicj86/my-portfolio#readme",
+  "dependencies": {
+    "eslint-utils": "^1.4.3"
+  }
 }
