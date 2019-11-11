@@ -11,14 +11,7 @@
         
         <!-- LOCAL -->
 
-        <!--[if !IE]><!-->
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <!--<![endif]-->
-       
-       <!--[if IE]>
-            <link href="assets/css/styleIE.css" rel="stylesheet" type="text/css" />
-        <![endif]-->
-
         <script src="assets/js/gen_validatorv31.js" type="text/javascript"></script>
        
         
@@ -28,9 +21,6 @@
         <link rel="stylesheet" href="https://cdn.materialdesignicons.com/3.6.95/css/materialdesignicons.min.css">
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
-
-
-  
     </head>
     <body>
         <header id="home">
@@ -129,7 +119,7 @@
                             <img class="icons-service" src="https://drive.google.com/uc?id=1sBzX3PeMSTdpQ1gztrkMbXs5CiY5qGD1" alt="css icon">
                         </div>
                         <div class="card">                        
-                            <img class="icons-service js-icon" src="https://drive.google.com/uc?id=1fO8sL5TrxtnOEQk7DXF5tWtKN7C4YFuP" alt="javascript icon">
+                            <img class="icons-service js-icon" src="https://drive.google.com/uc?id=1OmpzV8UZBDZGHOJsLtqsiCzLEY6t-2C5" alt="javascript icon">
                         </div>
                         <div class="card">                        
                         <img class="icons-service jquery" src="https://drive.google.com/uc?id=1WVb0hWRfbU9Bh-IbwJDw0IBL_BJWZdtJ" alt="jquery icon">                       
@@ -157,7 +147,7 @@
                             <img class="icons-service" src="https://drive.google.com/uc?id=1sBzX3PeMSTdpQ1gztrkMbXs5CiY5qGD1" alt="css icon">
                         </div>
                         <div class="card">                        
-                            <img class="icons-service js-icon" src="https://drive.google.com/uc?id=1fO8sL5TrxtnOEQk7DXF5tWtKN7C4YFuP" alt="javascript icon">
+                            <img class="icons-service js-icon" src="https://drive.google.com/uc?id=1OmpzV8UZBDZGHOJsLtqsiCzLEY6t-2C5" alt="javascript icon">
                         </div>
                     </div>
                     <div class="row row-2">
@@ -189,7 +179,7 @@
                   
                     <div class="card">
                         <div class="card-header">
-                            <img class="icons-service" src="https://drive.google.com/uc?id=10ZP5ax7KnkLtRItSmnp8bZmO9-A3Hehc" alt="Front-end Development">
+                            <img class="icons-service" src="https://drive.google.com/uc?id=1aStQddMycIhpOOBYRiqKl9ohcppmqZLh" alt="Front-end Development">
                         </div>
                         <div class="card-body">
                             <h4>Front-end</h4>
@@ -200,7 +190,7 @@
                     </div>
                     <div class="card">
                         <div class="card-header">
-                            <img class="icons-service" src="https://drive.google.com/uc?id=1tT-6dXvirip6WV_kxSZ6Atx2lTE8Myp-" alt="Responsiveness">
+                            <img class="icons-service" src="https://drive.google.com/uc?id=1rewaZJ4oNAvvrhbMct7o7bUqZImIi5Mu" alt="Responsiveness">
                         </div>
                         <div class="card-body">
                             <h4>Responsiveness</h4>
@@ -209,7 +199,7 @@
                     </div>
                     <div class="card">
                         <div class="card-header">
-                            <img class="icons-service" src="https://drive.google.com/uc?id=1n0sumG7mLcvhtPpuSNONgZG935Q88ZUF" alt="Creative Thinking">
+                            <img class="icons-service" src="https://drive.google.com/uc?id=1r7cNZhRV1TDIDzaM8W6tqnr-rsse5rgB" alt="Creative Thinking">
                         </div>
                         <div class="card-body">
                             <h4>UX/UI</h4>

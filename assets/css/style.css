@@ -11,6 +11,7 @@ html,
 
 @font-face {
     font-family: 'Merriweather', serif;
+    font-display: auto;
     src: local('/assets/Merriweather/Merriweather-Black.ttf'), 
             url("https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap");
 }
@@ -320,7 +321,7 @@ span.tooltip-text {
 
 .parallax {
     background-attachment: inherit;
-    background-image: url("https://drive.google.com/uc?id=11vNHThDD0SxdWFpHppq3e75ZMv47pe1J");
+    background-image: url("/images/background/parallex-blur.webp");
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
@@ -461,14 +462,14 @@ span.tooltip-text {
     }
 
 #portfolio {
-    background-image: url("https://drive.google.com/uc?id=1slscYA1B3S3eGegvvRE5AijTcTb0ryMZ");
+    background-image: url("/images/covers/portfolio-mobile-cover.webp");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
 #realestate {
-    background-image: url("https://drive.google.com/uc?id=1wgSuFEqeKTVF1wJRLyvMUuFPsFC2eIS7");
+    background-image: url("/images/covers/realestate-cover.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -476,7 +477,7 @@ span.tooltip-text {
 }
 
 #fylo {
-    background-image: url("https://drive.google.com/uc?id=1leNJELhJ4s620Iz0H1vR2Kr0NpFRyJQd");
+    background-image: url("/images/covers/fylo-cover.webp");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -585,6 +586,14 @@ span.tooltip-text {
     height: 30px;
     position: relative;
     width: 100%;
+}
+
+#modal .modal-description a{
+    position: relative;
+}
+
+#modal #withLink {
+    font-size: 12px;
 }
 
 .modal-subtitle {
@@ -1134,7 +1143,7 @@ textarea {
             display: table;
         }
         #about .col-left {
-            background-image: url("https://drive.google.com/uc?id=1jCW0ZnNTS_y6WwpO_peaRMJqbqw3AyGb");
+            background-image: url("/images/profile/about-me-profile.webp");
         } 
  
     .btn-contain {
@@ -1174,7 +1183,7 @@ textarea {
     }
 
     header .col-right {
-        background-image: url("https://drive.google.com/uc?id=1RmLt9YgxQoY_hsc91D4IKX7lVvU-JOsC");
+        background-image: url("/images/profile/header-profile-right.webp");
     }
     #contact .column {
         margin-top: 50px;

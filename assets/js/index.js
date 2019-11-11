@@ -95,16 +95,14 @@ var materialUI = "Material UI Colors"
 var urlMaterial = "http://materialuicolors.co/?utm_source=launchers"
 var link1 = flatUI.link(urlFlat)
 var link2 = materialUI.link(urlMaterial)
-console.log(link1, link2)
-var descript = "A clone of websites like " + link1 +  " and " + link2; 
 
 //Modal content - projects
 var modalText = {
     portfolio: {
     title: "Portfolio",
     subtitle: "HTML, CSS, JavaScript, jQuery, PHP",
-    gitCode: "https://github.com/todorovicj86/Portfolio",
-    website: "http://todorovicjelena-com.stackstaging.com/",
+    gitCode: "https://github.com/todorovicj86/my-portfolio",
+    website: "https://jelena-todorovic-portfolio.herokuapp.com/",
     description: 
       "The project is a portfolio website. The purpose is to show what I already know, " +
       "but also to learn and try new skills, such as UI/UX design and backend technologies." +
@@ -137,16 +135,13 @@ var modalText = {
 
   toDo: {
     title: "ToDo React App",
-    subtitle: "React",
+    subtitle: "React, CSS",
     gitCode: "https://github.com/todorovicj86/todo-react-app",
     website: "https://todo-app-by-me-react.herokuapp.com/",
     description: 
-    "It is  simple ToDo Web Application." +
-    " It enables the user to make their ToDo list. " +
-    " The project was an assignment of the Udemy Course I followed. "+
-    " It has a possibility to add new items, to remove completed ones, to sort data based on active and completed list. "+
-    " I also add the date when created and when completed. "+
-    " For this project, I use JavaScript/jQuery."
+    " This is a user-friendly application that is used to create a simple to-do list. " +
+    " It gives the user the possibility to add new tasks to their list, to cross-off or remove the completed tasks, " + 
+    " and to edit the existing ones. The application is created using React."
   },
   todoApp: {
     title: "ToDo App",
@@ -154,11 +149,10 @@ var modalText = {
     gitCode: "https://github.com/todorovicj86/ToDoList",
     website: "https://todoapp-76b11.firebaseapp.com/",
     description: 
-    "It is  simple ToDo Web Application." +
+    "It is a simple ToDo Web Application." +
     " It enables the user to make their ToDo list. " +
-    " The project was an assignment of the Udemy Course I followed. "+
-    " It has a possibility to add new items, to remove completed ones, to sort data based on active and completed list. "+
-    " I also add the date when created and when completed. "+
+    " It can add new items, remove completed ones, and sort data based on active and completed tasks. "+
+    " It also adds the date when a task created and when completed. "+
     " For this project, I use JavaScript/jQuery."
   },
   colorPalette: {
@@ -167,12 +161,14 @@ var modalText = {
     gitCode: "https://github.com/todorovicj86/react-colors-app",
     website: "https://react-colors-palette-app.herokuapp.com/",
     description: 
-    "A clone of websites like " + link1 +  " and " + link2 +
-    " It enables the user to make their ToDo list. " +
-    " The project was an assignment of the Udemy Course I followed. "+
-    " It has a possibility to add new items, to remove completed ones, to sort data based on active and completed list. "+
-    " I also add the date when created and when completed. "+
-    " For this project, I use JavaScript/jQuery."
+    `<p id="withLink">The project is a clone of websites like ${link1} and ${link2}. 
+    By default, it gives nine color palettes. Each palette contains 20 colors with the color-name and color-code. A user can copy the color-code to a clipboard. 
+    The color-code format (HEX, RGB or RGBA), as well as the color shade level, can change.  
+    In addition to the offered palettes, a user can create a new color palette, with a maximum of 20 colors. 
+    The user can manually choose each color of the palette and give it a name, or they can generate it randomly. 
+    All the colors and color names need to be unique in the palette.  Additionally, the position of each color box can change by drag-and-drop.  
+    Once the user creates the palette, it will save it on local storage under the unique name and a chosen emoji.
+    The app is built with ReactJS.  For the React components, I use Material UI, whereas for the customized styling I use JSS. </p>`
   }
 
   
@@ -182,7 +178,7 @@ var modalText = {
 //function to fill in the modal window
 function fillModal(id){
   $(".modal-title").text(modalText[id].title);
-  $(".modal-description").text(modalText[id].description);
+  $(".modal-description").html(modalText[id].description);
   $(".modal-subtitle").text(modalText[id].subtitle);
   $("#github_site").attr("href",modalText[id].gitCode);
   // $('#website').attr("href", modalText[id].website);
@@ -202,6 +198,7 @@ function fillModal(id){
     });
   });
 }
+
 
 // $(document).ready(function(){
   //set the slide to first picture
