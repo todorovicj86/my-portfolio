@@ -16,9 +16,8 @@
        
         
         <!-- HOSTED -->
-        <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdn.materialdesignicons.com/3.6.95/css/materialdesignicons.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
     </head>
@@ -113,60 +112,60 @@
                     <h2>Skills</h2>
                     <div class="row row-1">
                         <div class="card">
-                            <img class="icons-service" src="https://drive.google.com/uc?id=1Iwa2RUJSs4TjEJ2eIrZvQUf7b3tCFkF0" alt="html icon">
+                            <img class="icons-service" src="images/icons/html.svg" alt="html icon">
                         </div>
                         <div class="card">
-                            <img class="icons-service" src="https://drive.google.com/uc?id=1sBzX3PeMSTdpQ1gztrkMbXs5CiY5qGD1" alt="css icon">
+                            <img class="icons-service" src="images/icons/css.svg" alt="css icon">
                         </div>
                         <div class="card">                        
-                            <img class="icons-service js-icon" src="https://drive.google.com/uc?id=1OmpzV8UZBDZGHOJsLtqsiCzLEY6t-2C5" alt="javascript icon">
+                            <img class="icons-service js-icon" src="images/icons/java-script.webp" alt="javascript icon">
                         </div>
                         <div class="card">                        
-                        <img class="icons-service jquery" src="https://drive.google.com/uc?id=1WVb0hWRfbU9Bh-IbwJDw0IBL_BJWZdtJ" alt="jquery icon">                       
+                            <img class="icons-service jquery" src="images/icons/jquery.svg" alt="jquery icon">                       
                         </div>
                     </div>
                     <div class="row row-1">
                         <div class="card">                        
-                            <img class="icons-service react" src="https://drive.google.com/uc?id=1ESrmym4K3s0fr0VEpu-25-7JfYU79r80" alt="react icon">                        
+                            <img class="icons-service react" src="images/icons/react.svg" alt="react icon">                        
                         </div>
                         <div class="card">                        
-                            <img class="icons-service icon-sass" src="https://drive.google.com/uc?id=1eAlDhGAeciUOUnNyIsvn-5QzC3naADc0" alt="sass icon">                        
+                            <img class="icons-service icon-sass" src="images/icons/sass.svg" alt="sass icon">                        
                         </div>
                         <div class="card">                        
-                            <img class="icons-service icon-bootstrap" src="https://drive.google.com/uc?id=1w7FzYd4cmNjyXkBRfvOxsFI0dJk0dwut" alt="bootstrap icon">                        
+                            <img class="icons-service icon-bootstrap" src="images/icons/bootstrap.svg" alt="bootstrap icon">                        
                         </div>
                         <div class="card">                        
-                            <img class="icons-service icon-wordpress" src="https://drive.google.com/uc?id=1sZZZQgc5iu4IksKnFKShWkVSSz5zluVK" alt="wordpress icon">                        
+                            <img class="icons-service icon-wordpress" src="images/icons/wordpress.svg" alt="wordpress icon">                        
                         </div>
                     </div>
                     <div class="row row-2">
                         <div class="card">
-                            <img class="icons-service" src="https://drive.google.com/uc?id=1Iwa2RUJSs4TjEJ2eIrZvQUf7b3tCFkF0" alt="html icon">
+                            <img class="icons-service" src="images/icons/html.svg" alt="html icon">
                         </div>
                         <div class="card">
-                            <img class="icons-service" src="https://drive.google.com/uc?id=1sBzX3PeMSTdpQ1gztrkMbXs5CiY5qGD1" alt="css icon">
+                            <img class="icons-service" src="images/icons/css.svg" alt="css icon">
                         </div>
                         <div class="card">                        
-                            <img class="icons-service js-icon" src="https://drive.google.com/uc?id=1OmpzV8UZBDZGHOJsLtqsiCzLEY6t-2C5" alt="javascript icon">
+                            <img class="icons-service js-icon" src="images/icons/java-script.webp" alt="javascript icon">
                         </div>
                     </div>
                     <div class="row row-2">
                         <div class="card">                        
-                            <img class="icons-service icon-big jquery" src="https://drive.google.com/uc?id=1WVb0hWRfbU9Bh-IbwJDw0IBL_BJWZdtJ" alt="jquery icon">      
+                            <img class="icons-service icon-big jquery"  src="images/icons/jquery.svg" alt="jquery icon">      
                         </div>
                         <div class="card">                        
-                            <img class="icons-service icon-big react" src="https://drive.google.com/uc?id=1ESrmym4K3s0fr0VEpu-25-7JfYU79r80" alt="react icon">                        
+                            <img class="icons-service icon-big react"  src="images/icons/react.svg" alt="react icon">                        
                         </div>
                         <div class="card">                        
-                            <img class="icons-service icon-sass" src="https://drive.google.com/uc?id=1eAlDhGAeciUOUnNyIsvn-5QzC3naADc0" alt="sass icon">                        
+                            <img class="icons-service icon-sass" src="images/icons/sass.svg" alt="sass icon">                        
                         </div>
                     </div>
                     <div class="row row-3">
                         <div class="card">                        
-                            <img class="icons-service icon-bootstrap" src="https://drive.google.com/uc?id=1w7FzYd4cmNjyXkBRfvOxsFI0dJk0dwut" alt="bootstrap icon">                        
+                            <img class="icons-service icon-bootstrap" src="images/icons/bootstrap.svg" alt="bootstrap icon">                        
                         </div>
                         <div class="card">                        
-                            <img class="icons-service icon-wordpress" src="https://drive.google.com/uc?id=1sZZZQgc5iu4IksKnFKShWkVSSz5zluVK" alt="wordpress icon">                        
+                            <img class="icons-service icon-wordpress" src="images/icons/wordpress.svg" alt="wordpress icon">                        
                         </div>
 
                     </div>
@@ -179,7 +178,7 @@
                   
                     <div class="card">
                         <div class="card-header">
-                            <img class="icons-service" src="https://drive.google.com/uc?id=1aStQddMycIhpOOBYRiqKl9ohcppmqZLh" alt="Front-end Development">
+                            <img class="icons-service" src="images/icons/front-end-developer.webp" alt="Front-end Development">
                         </div>
                         <div class="card-body">
                             <h4>Front-end</h4>
@@ -190,7 +189,7 @@
                     </div>
                     <div class="card">
                         <div class="card-header">
-                            <img class="icons-service" src="https://drive.google.com/uc?id=1rewaZJ4oNAvvrhbMct7o7bUqZImIi5Mu" alt="Responsiveness">
+                            <img class="icons-service" src="images/icons/responsive.webp" alt="Responsiveness">
                         </div>
                         <div class="card-body">
                             <h4>Responsiveness</h4>
@@ -199,7 +198,7 @@
                     </div>
                     <div class="card">
                         <div class="card-header">
-                            <img class="icons-service" src="https://drive.google.com/uc?id=1r7cNZhRV1TDIDzaM8W6tqnr-rsse5rgB" alt="Creative Thinking">
+                            <img class="icons-service" src="images/icons/ux-ui.webp" alt="Creative Thinking">
                         </div>
                         <div class="card-body">
                             <h4>UX/UI</h4>
@@ -224,8 +223,8 @@
                                 <div class="slide"></div>
                                 <div class="slide"></div>
                             </div>
-                            <a id="next"><i class="mdi mdi-chevron-right"></i></a>
-                            <a id="prev"> <i class="mdi mdi-chevron-left"></i> </a>
+                            <a id="next"><i class="fa fa-chevron-right"></i></a>
+                            <a id="prev"> <i class="fa fa-chevron-left"></i> </a>
                         </div>
                         <div class="modal-content">
                             <div><h4 class="modal-title">This is modal title</h4></div>
@@ -237,7 +236,9 @@
                         <div class = "modal-footer">
                             <a id="github_site" href="" target="_blank">Code</a>
                             <a id="website" href="" target="_blank">Website</a>
-                            <a href="javascript:void(0)" id="close-modal"><i class="mdi mdi-close"></i></a>
+                            <a href="javascript:void(0)" id="close-modal"><i class="fa fa-times"></i>
+                            <!-- <i class="mdi mdi-close"></i> -->
+                        </a>
                         </div>
                     
                     </div>
@@ -365,11 +366,5 @@
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
         <!-- LOCAL -->
         <script type="text/javascript" src="assets/js/index.js" defer></script> 
-        
-        <script type="text/javascript">
-            if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)){
-                 document.write('<script src="indexEdge.js"><\/script>');
-            }
-        </script>
     </body>
 </html>
