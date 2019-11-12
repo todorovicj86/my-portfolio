@@ -38,10 +38,6 @@ a {
     text-decoration: none;
 }
 
-li {
-    list-style: none;
-}
-
 h1 {
     font-size: 2.2rem;
     line-height: 1.5em;
@@ -106,11 +102,6 @@ section {
         letter-spacing: 2px;
     }
 
-.btn-border {
-    background-color: inherit;
-    border: 1px solid #57BC90;
-}
-
 .centered {
     left: 50%;
     top: 50%;
@@ -136,12 +127,9 @@ section {
 nav {
     display: none;
     max-height: calc(100% - 50px);
-    /* left: 50%; */
     opacity: 1;
     overflow-y: auto;
     position: fixed;
-    /* top: 50%;
-    transform: translate(-50%, -50%); */
     z-index: 4; 
 }
     nav a {
@@ -301,7 +289,6 @@ span.tooltip-text {
 }
 
 .icons-service.jquery {
-    /* margin-top: 25px; */
     width:60px;
 }
 
@@ -380,7 +367,6 @@ span.tooltip-text {
         display: table;
     }
   
-
 .white-layer {
     background-color: whitesmoke;
     height: 100%;
@@ -392,7 +378,6 @@ span.tooltip-text {
     z-index: -1;
 }
 
-
 /*************************************************/
                 /*SERVICES SECTION*/
 /*************************************************/
@@ -401,8 +386,6 @@ span.tooltip-text {
     background-color: transparent;
     background-image: linear-gradient(to bottom,#F4F4F4,#57BC90);
     position: relative;
-    /* margin-bottom: 100px; */
-    /* margin-top: 200px; */
 }
     .services .card {
         height: auto;
@@ -418,8 +401,6 @@ span.tooltip-text {
         margin-top: 5px;
     }
 
-
-
 /*************************************************/
                 /*PROJECTS SECTION*/
 /*************************************************/
@@ -431,7 +412,6 @@ span.tooltip-text {
     text-align: center;
     width: 100%;
 }
-
 .card-content-text {
     left: 50%;
     position: absolute;
@@ -804,7 +784,6 @@ textarea {
     font-size: 1em;
 }
 
-
 /*************************************************/
                 /*MEDIA QUERY*/
 /*************************************************/
@@ -845,7 +824,6 @@ textarea {
 }
 
 @media only screen and (min-width: 600px) {
-
     .btn-contain{
         width: 100%;
     }
@@ -997,7 +975,6 @@ textarea {
         display: table;
     }
  
-   
     .slide {
         height: 250px;
         width: 100%;
@@ -1019,7 +996,6 @@ textarea {
 }
 
 @media only screen and (min-width: 768px) {
-
     #about {
         height: 800px;
         padding: 0;
@@ -1073,7 +1049,6 @@ textarea {
         width: calc(((100% - 4*10px)/12) * 6);
     }
  
-  
     .column {
         float: left;
         margin: 50px 10px;
@@ -1084,7 +1059,6 @@ textarea {
             content: "";
             display: table;
         }
-    
 
     form {
         width: 100%;
@@ -1094,7 +1068,6 @@ textarea {
             content: "";
             display: table;
         }
-
 
     input {
         width: 100%;
@@ -1199,7 +1172,6 @@ textarea {
         height: calc(100% - 50% - 30px);
     }
     
-
     .parallax {
         background-attachment: fixed;
     }
@@ -1235,7 +1207,6 @@ textarea {
     .row-2 {
         display: none;
     }
-
 
     #services .card {
         float: left;
@@ -1292,11 +1263,7 @@ textarea {
     .row-2, .row-3 {
         display: none;
     }
-
-
 }
-
-
 
 @media only screen and (min-width: 1200px){
     #modal {
@@ -1338,7 +1305,6 @@ textarea {
     .row-2, .row-3 {
         display: none;
     }
-
 }
 
 @media only screen and (min-width: 1400px) {
@@ -1389,5 +1355,4 @@ textarea {
     #about .col-right {
         overflow-y: auto;
     }
-
 }
