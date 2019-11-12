@@ -141,7 +141,7 @@ nav {
         }
 
         nav::-webkit-scrollbar {
-            width: none;
+            width: 0;
         }
 
 
@@ -248,7 +248,6 @@ hr {
     .text p:last-of-type {
         margin-bottom: 20px;
     }
-
 
 span.tooltip {
     border-bottom: 1px dotted #255B42;
@@ -512,14 +511,14 @@ span.tooltip-text {
     position: absolute;
 }
 
-.mdi-close, .fa.fa-times{
+.fa.fa-times{
     font-size: 1.2rem;
     font-weight: normal;
-    color: black;
 }
 
 .fa-chevron-left, .fa-chevron-right {
     font-size: 2rem;
+    color: white;
 }
 
 #modal {
@@ -624,10 +623,6 @@ span.tooltip-text {
     left: 100px;
 }
 
-.visible {
-    display: inline;
-}
-
 /*************************************************/
                 /*CONTACT SECTION*/
 /*************************************************/
@@ -688,7 +683,7 @@ span.tooltip-text {
         font-weight: normal;
         margin-top: 30px;
     }
-    #contact h5 {
+    #contact h4 {
         font-weight: normal;
     }
     #contact a {
@@ -711,7 +706,6 @@ span.tooltip-text {
         margin: 10px;
     }
 
-
 footer {
     background-color: #222222;
     color: white;
@@ -723,7 +717,6 @@ footer {
     footer span {
         color: #57BC90;
     }
-
 
 form {
     background: white;
@@ -812,15 +805,9 @@ textarea {
         width: 80%;
     }
 
-    .contact-info {
-        margin: 0;
-        width: 100%;
-    }
-
     .container {
         width: 80%;
     }
-   
 }
 
 @media only screen and (min-width: 600px) {
@@ -915,7 +902,6 @@ textarea {
         content: "";
         display: table;
     }
-
       
     label {
         margin: 0;
@@ -1181,12 +1167,6 @@ textarea {
         height: 300px;
         margin: 20px 15px;
         width: calc((100% - 6*15px)/3);
-    }
-
-    #project .container {
-        clear: both;
-        content: "";
-        display: table;
     }
 
     .right {
