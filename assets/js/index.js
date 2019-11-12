@@ -168,7 +168,7 @@ var modalText = {
     The user can manually choose each color of the palette and give it a name, or they can generate it randomly. 
     All the colors and color names need to be unique in the palette.  Additionally, the position of each color box can change by drag-and-drop.  
     Once the user creates the palette, it will save it on local storage under the unique name and a chosen emoji.
-    The app is built with ReactJS.  For the React components, I use Material UI, whereas for the customized styling I use JSS. </p>`
+    The app is built with ReactJS.  For the React components, I use Material UI, and for the customized styling I use JSS. </p>`
   }
 
   
