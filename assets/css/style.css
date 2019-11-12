@@ -164,7 +164,7 @@ header {
 }
     header .col-left {
         background-attachment: inherit;
-        background-image: url("https://drive.google.com/uc?id=1gk0b6kmC1UVRm3Via6t8edVHWaR0k5Rs");
+        background-image: url("/images/profile/header-profile-mobile.webp");
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;
@@ -484,21 +484,21 @@ span.tooltip-text {
 }
 
 #colorPalette {
-    background-image: url("https://drive.google.com/uc?id=1M70nUCtJqytOs1B9xeH3pwhpgxf1dwWX");
+    background-image: url("/images/covers/colorPalette-cover.webp");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
 #toDo {
-    background-image: url("https://drive.google.com/uc?id=1CUf2EwcvLX1N-gqnmH2KfzVr54k2mDor");
+    background-image: url("/images/covers/toDo-cover.webp");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
 #todoApp {
-    background-image: url("https://drive.google.com/uc?id=1LaG88zcgV-L6gsUjqEfiVPeOEkyu-doi");
+    background-image: url("/images/covers/todoApp-cover.webp");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -532,11 +532,13 @@ span.tooltip-text {
     position: absolute;
 }
 
-.mdi-close {
+.mdi-close, .fa.fa-times{
     font-size: 1.2rem;
+    font-weight: normal;
+    color: black;
 }
 
-.mdi-chevron-right, .mdi-chevron-left {
+.fa-chevron-left, .fa-chevron-right {
     font-size: 2rem;
 }
 
@@ -655,9 +657,6 @@ span.tooltip-text {
 }
 
 .btn-contact {
-    -moz-box-shadow: 0 5px 40px -10px rgba(0,0,0,0.57);
-    -webkit-box-shadow: 0 5px 40px -10px rgba(0,0,0,0.57);
-    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
     padding: 12px;
     width: 80px;
 }
@@ -676,7 +675,7 @@ span.tooltip-text {
 #contact {
     background-attachment: inherit;
     background-color: #343434;
-    background-image: url("https://drive.google.com/uc?id=1YGikospW7NdS28qaTg-0Qq0Ux1vIVd1F");
+    background-image: url("/images/background/prism.webp");
     margin-top: 100px;
     position: relative;
 }
@@ -704,23 +703,14 @@ span.tooltip-text {
     width: 100%;
     z-index: -1; 
    }
-    /* #contact h2 {
-        font-size: 2.2rem;
-        line-height: 1.5em;
-    } */
+
     #contact h3 {
-        /* font-size: 2rem; */
         font-weight: normal;
         margin-top: 30px;
     }
     #contact h5 {
-        /* font-size: 1.5rem; */
         font-weight: normal;
     }
-    /* #contact > .container {
-        margin: 40px auto;
-    }   */
-
     #contact a {
         font-size: 0.9rem;
     }
@@ -933,7 +923,7 @@ textarea {
 
     header .col-right {
         background-attachment: fixed;
-        background-image: url("https://drive.google.com/uc?id=1asDLUJMWEBSkuNH79DxdPzOrWnH4hZeU");
+        background-image: url("/images/profile/header-profile-right.webp");
         background-position: top right;
         background-repeat: no-repeat;
         background-size: contain;
@@ -1037,7 +1027,7 @@ textarea {
          #about .col-left {
             background-attachment: fixed;
             background-color: #57BC90;
-            background-image: url("https://drive.google.com/uc?id=1f6xTx0QJzDef6GngHosTC9rpYJPya4qq");
+            background-image: url("/images/profile/about-me-profile.webp");
             background-position: left;
             background-repeat: no-repeat;
             background-size: contain;
@@ -1135,7 +1125,6 @@ textarea {
 @media only screen and (min-width: 900px) {
     #about {
         height: 100vh;
-        /* padding: 0; */
     } 
         #about:after {
             clear: both;
@@ -1179,7 +1168,6 @@ textarea {
 
     header .col-left {
         background-color: #F5F5F5;
-        /* background-color: #DDE9B9; */
     }
 
     header .col-right {
