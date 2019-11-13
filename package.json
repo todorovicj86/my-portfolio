@@ -30,6 +30,8 @@
   "homepage": "https://github.com/todorovicj86/my-portfolio#readme",
   "dependencies": {
     "eslint-utils": "^1.4.3",
-    "lozad": "^1.14.0"
-  }
+    "lozad": "^1.14.0",
+    "node": "^13.1.0"
+  },
+  "devDependencies": {}
 }
