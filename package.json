@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/todorovicj86/my-portfolio#readme",
   "dependencies": {
-    "eslint-utils": "^1.4.3"
+    "eslint-utils": "^1.4.3",
+    "lozad": "^1.14.0"
   }
 }
