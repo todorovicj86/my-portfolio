@@ -10,15 +10,22 @@ html,
 }
 
 @font-face {
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather";
     font-display: auto;
-    src: local('/assets/Merriweather/Merriweather-Black.ttf'), 
-            url("https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap");
+    src: local("/assets/fonts/Merriweather-Black.ttf") format("ttf"), 
+            url(https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap) format("ttf");
+}
+
+@font-face {
+    font-family: "FontAwesome";
+    font-display: auto;
+    src: local("/assets/fonts/fontawesome-webfont.woff2") format("woff2"), 
+            url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css) format("ttf");
 }
 
 body {
     background: #F5F5F5;
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
     line-height: 2em;
     min-height: 100%;
     min-width: 100%;
