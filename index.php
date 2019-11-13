@@ -12,14 +12,17 @@
         <!-- LOCAL -->
 
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <script src="assets/js/gen_validatorv31.js" type="text/javascript"></script>
+        <!-- <script src="assets/js/gen_validatorv31.js" type="text/javascript"></script> -->
        
         
         <!-- HOSTED -->
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap" rel="stylesheet">
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script> -->
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+    
     </head>
     <body>
         <header id="home">
@@ -62,7 +65,7 @@
 
         <main>
             <section class= "about" id="about">
-                <div id = "about-me-img" class ="col col-left profile-img img-left about-me-img"></div>
+                <div id = "about-me-img" class ="lozad col col-left profile-img img-left about-me-img" data-background-image="/images/profile/about-me-profile.webp"></div>
                 <div class="col col-right text-right pos-rel">
                     <div class ="text">
                         <h2>About me</h2>
@@ -106,66 +109,66 @@
                 </div>
             </section>
             <section class="skills" id="skills">
-                <div class="parallax"></div>
+                <div class="lozad parallax" data-background-image="/images/background/parallex-blur.webp"></div>
                 <div class="white-layer"></div>
                 <div class="container">
                     <h2>Skills</h2>
                     <div class="row row-1">
                         <div class="card">
-                            <img class="icons-service" src="images/icons/html.svg" alt="html icon">
+                            <img class="lozad icons-service"  data-src="images/icons/html.svg" alt="html icon">
                         </div>
                         <div class="card">
-                            <img class="icons-service" src="images/icons/css.svg" alt="css icon">
+                            <img class="lozad icons-service"  data-src="images/icons/css.svg" alt="css icon">
                         </div>
                         <div class="card">                        
-                            <img class="icons-service js-icon" src="images/icons/java-script.webp" alt="javascript icon">
+                            <img class="lozad icons-service js-icon"  data-src="images/icons/java-script.webp" alt="javascript icon">
                         </div>
                         <div class="card">                        
-                            <img class="icons-service jquery" src="images/icons/jquery.svg" alt="jquery icon">                       
+                            <img class="lozad icons-service jquery"  data-src="images/icons/jquery.svg" alt="jquery icon">                       
                         </div>
                     </div>
                     <div class="row row-1">
                         <div class="card">                        
-                            <img class="icons-service react" src="images/icons/react.svg" alt="react icon">                        
+                            <img class="lozad icons-service react"  data-src="images/icons/react.svg" alt="react icon">                        
                         </div>
                         <div class="card">                        
-                            <img class="icons-service icon-sass" src="images/icons/sass.svg" alt="sass icon">                        
+                            <img class="lozad icons-service icon-sass"  data-src="images/icons/sass.svg" alt="sass icon">                        
                         </div>
                         <div class="card">                        
-                            <img class="icons-service icon-bootstrap" src="images/icons/bootstrap.svg" alt="bootstrap icon">                        
+                            <img class="lozad icons-service icon-bootstrap"  data-src="images/icons/bootstrap.svg" alt="bootstrap icon">                        
                         </div>
                         <div class="card">                        
-                            <img class="icons-service icon-wordpress" src="images/icons/wordpress.svg" alt="wordpress icon">                        
+                            <img class="lozad icons-service icon-wordpress"  data-src="images/icons/wordpress.svg" alt="wordpress icon">                        
                         </div>
                     </div>
                     <div class="row row-2">
                         <div class="card">
-                            <img class="icons-service" src="images/icons/html.svg" alt="html icon">
+                            <img class="lozad icons-service" data-src="images/icons/html.svg" alt="html icon">
                         </div>
                         <div class="card">
-                            <img class="icons-service" src="images/icons/css.svg" alt="css icon">
+                            <img class="lozad icons-service" data-src="images/icons/css.svg" alt="css icon">
                         </div>
                         <div class="card">                        
-                            <img class="icons-service js-icon" src="images/icons/java-script.webp" alt="javascript icon">
+                            <img class="lozad icons-service js-icon"  data-src="images/icons/java-script.webp" alt="javascript icon">
                         </div>
                     </div>
                     <div class="row row-2">
                         <div class="card">                        
-                            <img class="icons-service icon-big jquery"  src="images/icons/jquery.svg" alt="jquery icon">      
+                            <img class="lozad icons-service icon-big jquery"  data-src="images/icons/jquery.svg" alt="jquery icon">      
                         </div>
                         <div class="card">                        
-                            <img class="icons-service icon-big react"  src="images/icons/react.svg" alt="react icon">                        
+                            <img class="lozad icons-service icon-big react" data-src="images/icons/react.svg" alt="react icon">                        
                         </div>
                         <div class="card">                        
-                            <img class="icons-service icon-sass" src="images/icons/sass.svg" alt="sass icon">                        
+                            <img class="lozad icons-service icon-sass"  data-src="images/icons/sass.svg" alt="sass icon">                        
                         </div>
                     </div>
                     <div class="row row-3">
                         <div class="card">                        
-                            <img class="icons-service icon-bootstrap" src="images/icons/bootstrap.svg" alt="bootstrap icon">                        
+                            <img class="lozad icons-service icon-bootstrap" data-src="images/icons/bootstrap.svg" alt="bootstrap icon">                        
                         </div>
                         <div class="card">                        
-                            <img class="icons-service icon-wordpress" src="images/icons/wordpress.svg" alt="wordpress icon">                        
+                            <img class="lozad icons-service icon-wordpress" data-src="images/icons/wordpress.svg" alt="wordpress icon">                        
                         </div>
 
                     </div>
@@ -178,7 +181,7 @@
                   
                     <div class="card">
                         <div class="card-header">
-                            <img class="icons-service" src="images/icons/front-end-developer.webp" alt="Front-end Development">
+                            <img class="lozad icons-service" src="" data-src="images/icons/front-end-developer.webp" alt="Front-end Development">
                         </div>
                         <div class="card-body">
                             <h4>Front-end</h4>
@@ -189,7 +192,7 @@
                     </div>
                     <div class="card">
                         <div class="card-header">
-                            <img class="icons-service" src="images/icons/responsive.webp" alt="Responsiveness">
+                            <img class="lozad icons-service" data-src="images/icons/responsive.webp" alt="Responsiveness">
                         </div>
                         <div class="card-body">
                             <h4>Responsiveness</h4>
@@ -198,7 +201,7 @@
                     </div>
                     <div class="card">
                         <div class="card-header">
-                            <img class="icons-service" src="images/icons/ux-ui.webp" alt="Creative Thinking">
+                            <img class="lozad icons-service" data-src="images/icons/ux-ui.webp" alt="Creative Thinking">
                         </div>
                         <div class="card-body">
                             <h4>UX/UI</h4>
@@ -243,7 +246,7 @@
                     
                     </div>
                     
-                    <div class="card projects-img" id = "portfolio">
+                    <div class="lozad card projects-img" data-background-mage="/images/covers/portfolio-mobile-cover.webp" id = "portfolio">
                         <div class="card-content">
                             <div class="card-content-text">
                                 <h4>Portfolio</h4>
@@ -255,7 +258,7 @@
                         </div>
                     </div>
                 
-                    <div class="card projects-img" id = "realestate">
+                    <div class="lozad card projects-img" data-background-image = "/images/covers/realestate-cover.webp" id = "realestate">
                         <div class="card-content">
                             <div class="card-content-text">
                                 <h4>Concept of a Real Estate Site</h4>
@@ -266,7 +269,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card projects-img" id = "fylo">
+                    <div class="lozad card projects-img" data-background-image = "/images/covers/fylo-cover.webp" id = "fylo">
                         <div class="card-content">
                             <div class="card-content-text">
                                 <h4>Fylo</h4>
@@ -277,7 +280,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card projects-img" id = "todoApp">
+                    <div class="lozad card projects-img" data-background-image = "/images/covers/todoApp-cover.webp" id = "todoApp">
                         <div class="card-content">
                             <div class="card-content-text">
                                 <h4>ToDo App</h4>
@@ -288,7 +291,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card projects-img" id = "colorPalette">
+                    <div class="lozad card projects-img" data-background-image = "/images/covers/colorPalette-cover.webp" id = "colorPalette">
                         <div class="card-content">
                             <div class="card-content-text">
                                 <h4>Color Palettes App</h4>
@@ -300,7 +303,7 @@
                         </div>
                     </div>
 
-                    <div class="card projects-img" id = "toDo">
+                    <div class="lozad card projects-img" data-background-image = "/images/covers/toDo-cover.webp" id = "toDo">
                         <div class="card-content">
                             <div class="card-content-text">
                                 <h4>ToDo React App</h4>
@@ -317,7 +320,7 @@
                 </div>
             </section>
         
-            <section class="contact" id="contact">
+            <section class="lozad contact" data-background-image="/images/background/prism.webp" id="contact">
                 <div class="container">
                     <h2><em class="white">Let's create together!</em></h2>
                     <h3 class="white">Contact me!</h3>
