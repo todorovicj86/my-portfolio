@@ -1,3 +1,13 @@
+
+const el = document.querySelector('img');
+// const observer = lozad(el);
+const observer = lozad('.lozad', {
+  rootMargin: '500px 0px', // syntax similar to that of CSS Margin
+  threshold: 0.1 // ratio of element convergence
+});
+observer.observe()
+
+
 $(document).ready(function(){
 // Responsive menu
 $("#toggle").on("click", function(){
@@ -54,9 +64,9 @@ $('.scroll_to').click(function(e){
 
 // clear message 
 $("#btn-clear").on("click", function(){
-  $("#message").val() = " ";
-  $("#name").val() = "";
-  $("#email").val() = "";
+  $("#message").val("");
+  $("#name").val("");
+  $("#email").val("");
 });
  
 // ***************** MODAL *******************/
@@ -247,10 +257,10 @@ function showDivs(n) {
    // Code for validating the form
   // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
   // for details
-  var frmvalidator  = new Validator("contactform");
-  frmvalidator.addValidation("name","req","Please provide your name"); 
-  frmvalidator.addValidation("email","req","Please provide your email"); 
-  frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+  // var frmvalidator  = new Validator("contactform");
+  // frmvalidator.addValidation("name","req","Please provide your name"); 
+  // frmvalidator.addValidation("email","req","Please provide your email"); 
+  // frmvalidator.addValidation("email","email","Please enter a valid email address"); 
 
 
   
